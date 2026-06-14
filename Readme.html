@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
-<title>IG-AI-DM // Operation Brief</title>
+<title>InstaG-DM-Bot Readme</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800;900&family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
@@ -442,7 +442,7 @@
     <div class="topbar-inner">
       <div class="brand">
         <span class="status-dot" aria-hidden="true"></span>
-        <span>IG-AI-DM <span class="dim">// readme.dossier</span></span>
+        <span>IG-AI-DM <span class="dim">LLM Bot</span></span>
       </div>
       <nav class="tabs">
         <a href="#setup" target="_self">01 · Setup</a>
@@ -547,8 +547,8 @@
         <div class="code">
           <button class="code-copy" type="button">Copy</button>
           <span class="code-text"><span class="c"># clone the repo</span>
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
-cd YOUR_REPO</span>
+git clone https://github.com/izaart95-jpg/instaG-dm-bot.git
+cd instaG-dm-bot</span>
         </div>
       </div>
     </div>
@@ -799,7 +799,7 @@ cl.set_proxy(PROXY)
         <tbody>
           <tr>
             <td class="var">TARGET_USER_ID</td>
-            <td class="default">—</td>
+            <td class="default">99123456789</td>
             <td class="desc">Instagram user ID of the account the bot replies to</td>
           </tr>
           <tr>
@@ -819,7 +819,7 @@ cl.set_proxy(PROXY)
           </tr>
           <tr>
             <td class="var">SYSTEM_PROMPT</td>
-            <td class="default">—</td>
+            <td class="default">You are helpful AI...</td>
             <td class="desc">Defines the AI's personality and how it should respond</td>
           </tr>
           <tr>
@@ -844,11 +844,10 @@ cl.set_proxy(PROXY)
       <h2>File Structure</h2>
       <div class="code">
         <button class="code-copy" type="button">Copy</button>
-        <span class="code-text">📁 project/
+        <span class="code-text">📁 instaG-dm-bot/
 ├── login.py          <span class="c"># authenticate &amp; save session</span>
 ├── bot.py            <span class="c"># main bot — polls &amp; responds to DMs</span>
 ├── session.json      <span class="c"># auto-generated session data (DO NOT COMMIT)</span>
-├── .gitignore        <span class="c"># include session.json here</span>
 └── README.html       <span class="c"># this file</span></span>
       </div>
     </div>
